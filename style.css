@@ -1,0 +1,113 @@
+body {
+    background: #f3f3f3;
+    font-family: Arial;
+}
+
+.container {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+}
+
+.title {
+    text-align: center;
+    color: #ff7baa;
+}
+
+.card {
+    border: 1px solid #ddd;
+    margin: 15px 0;
+    padding: 15px;
+    background: #fafafa;
+    border-radius: 8px;
+    position: relative;
+}
+
+.card input {
+    transform: scale(1.3);
+    margin-right: 10px;
+}
+
+.card .info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tag {
+    padding: 3px 6px;
+    border-radius: 4px;
+    font-size: 10px;
+    color: #fff;
+    margin-left: 5px;
+}
+
+.pink { background: #ff7baa; }
+.yellow { background: #ffc557; }
+.blue { background: #7bb3ff; }
+
+.strike {
+    text-decoration: line-through;
+    font-size: 12px;
+    color: gray;
+}
+
+.popular {
+    border: 2px solid #ffb74d;
+    padding-top: 30px;
+}
+
+.popular-badge {
+    position: absolute;
+    top: -10px;
+    right: 0;
+    background: #ff7baa;
+    padding: 4px 10px;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 0 0 8px 8px;
+}
+
+.variants {
+    margin-top: 15px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.row select {
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.delivery {
+    color: #ff7baa;
+    font-weight: bold;
+}
+
+.total {
+    font-size: 18px;
+    text-align: right;
+}
+
+.btn {
+    width: 100%;
+    background: #ff7baa;
+    border: none;
+    padding: 12px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.footer {
+    text-align: center;
+    font-size: 12px;
+    color: gray;
+    margin-top: 10px;
+}
